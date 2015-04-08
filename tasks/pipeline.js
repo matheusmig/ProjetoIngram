@@ -32,6 +32,7 @@ var jsFilesToInject = [
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
+  'js/public/addProperty/addPropertyModule.js',
   'js/public/signup/SignupModule.js', //EU ADICIONEI ISSO
   'js/**/*.js'
 ];

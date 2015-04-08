@@ -35,7 +35,12 @@ module.exports.routes = {
 
   'GET /signup': { view: 'startup'},
 
-  'POST /signup': 'UserController.signup'
+  'POST /signup': 'UserController.signup',
+
+
+  'GET /newproperty': { view: 'addProperty'},
+
+  'POST /newproperty': 'PropertyController.insert'
 
   /***************************************************************************
   *                                                                          *
