@@ -7,8 +7,8 @@ module.exports = {
 		Property.create({
 			type: req.param('type'),
 			addressStreet: req.param('addressStreet'),
-			owner: req.param('name'),
-			Id: req.param('Idnumber')
+			owner: req.param('owner'),
+			id: req.param('id')
 		}, function propertyCreated(err, newProperty){
 			if (err){
 				console.log ("err: ", err);
